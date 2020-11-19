@@ -1,0 +1,29 @@
+<html>
+<body>
+<center>
+<h2>查询用户</h2>
+<hr>
+<form method="post" action="right.jsp" target="right">
+    <table border width="100%" borderColorDark="#ffffec" borderColorLight="#5e5e00">
+      <tr bgcolor="#f7f7f7"><td width="50%">查询类型：</td>
+    <td><select name="stype">
+		<option value="id">宿舍号</option>
+		<option value="name">姓名</option>
+		<option value="sex">性别</option>
+		<option value="age">年龄</option>
+		<option value="phone">电话</option>
+		<option value="email">电子邮件</option>
+		<option value="address">地址</option>
+    </select></td>
+<tr bgcolor="#f7f7f7"><td width="50%">查询内容：</td>
+    <td><input type="text" name="skey" size="12"></td>
+<tr bgcolor="#f7f7f7">
+     <td colspan="2" align="center">
+	<input type="submit" value="查询">&nbsp;&nbsp;&nbsp;&nbsp; 
+        <input type="reset" value="清空">
+     </td>
+</table>
+</form>
+</center>
+</body>
+</html>
